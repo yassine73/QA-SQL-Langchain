@@ -1,0 +1,7 @@
+build:
+  gpu: true
+  python_version: "3.9"
+  python_requirements: requirements.txt
+
+predict: "predict.py:Predictor"
+image: r8.im/yassine73/test-model
